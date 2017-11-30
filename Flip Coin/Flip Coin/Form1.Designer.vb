@@ -27,6 +27,9 @@ Partial Class Form1
         Me.picTails = New System.Windows.Forms.PictureBox()
         Me.btnToss = New System.Windows.Forms.Button()
         Me.btnExit = New System.Windows.Forms.Button()
+        Me.lblNumberOfHeads = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.lblNumberOfTails = New System.Windows.Forms.Label()
         CType(Me.picHeads, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picTails, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -70,12 +73,40 @@ Partial Class Form1
         Me.btnExit.Text = "Exit"
         Me.btnExit.UseVisualStyleBackColor = True
         '
+        'lblNumberOfHeads
+        '
+        Me.lblNumberOfHeads.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblNumberOfHeads.Location = New System.Drawing.Point(53, 322)
+        Me.lblNumberOfHeads.Name = "lblNumberOfHeads"
+        Me.lblNumberOfHeads.Size = New System.Drawing.Size(100, 23)
+        Me.lblNumberOfHeads.TabIndex = 4
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(50, 288)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(88, 13)
+        Me.Label1.TabIndex = 5
+        Me.Label1.Text = "Number of heads"
+        '
+        'lblNumberOfTails
+        '
+        Me.lblNumberOfTails.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblNumberOfTails.Location = New System.Drawing.Point(238, 322)
+        Me.lblNumberOfTails.Name = "lblNumberOfTails"
+        Me.lblNumberOfTails.Size = New System.Drawing.Size(100, 23)
+        Me.lblNumberOfTails.TabIndex = 6
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(395, 368)
+        Me.Controls.Add(Me.lblNumberOfTails)
+        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.lblNumberOfHeads)
         Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.btnToss)
         Me.Controls.Add(Me.picTails)
@@ -85,11 +116,15 @@ Partial Class Form1
         CType(Me.picHeads, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.picTails, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
     Friend WithEvents picHeads As System.Windows.Forms.PictureBox
     Friend WithEvents picTails As System.Windows.Forms.PictureBox
     Friend WithEvents btnToss As System.Windows.Forms.Button
     Friend WithEvents btnExit As System.Windows.Forms.Button
+    Friend WithEvents lblNumberOfHeads As System.Windows.Forms.Label
+    Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents lblNumberOfTails As System.Windows.Forms.Label
 
 End Class
