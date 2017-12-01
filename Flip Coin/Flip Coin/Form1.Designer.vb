@@ -30,6 +30,7 @@ Partial Class Form1
         Me.lblNumberOfHeads = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.lblNumberOfTails = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
         CType(Me.picHeads, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picTails, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -98,12 +99,22 @@ Partial Class Form1
         Me.lblNumberOfTails.Size = New System.Drawing.Size(100, 23)
         Me.lblNumberOfTails.TabIndex = 6
         '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(238, 287)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(77, 13)
+        Me.Label2.TabIndex = 7
+        Me.Label2.Text = "Number of tails"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(395, 368)
+        Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.lblNumberOfTails)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.lblNumberOfHeads)
@@ -126,5 +137,6 @@ Partial Class Form1
     Friend WithEvents lblNumberOfHeads As System.Windows.Forms.Label
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents lblNumberOfTails As System.Windows.Forms.Label
+    Friend WithEvents Label2 As System.Windows.Forms.Label
 
 End Class
