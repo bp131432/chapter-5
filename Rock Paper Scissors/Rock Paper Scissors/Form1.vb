@@ -1,5 +1,6 @@
 ﻿Public Class RPS
-
+    Dim winCount As Integer = 0
+    Dim compCount As Integer = 0
     Private Sub btnGo_Click(sender As Object, e As EventArgs) Handles btnGo.Click
         Randomize()
 
@@ -9,12 +10,9 @@
         Const SCISSORS = 3
 
         num = CInt((3 * Rnd())) ' generate random numbers 1-3
-        Dim winCount As Integer = 0
-        Dim matchCount As Integer = 0
-        Dim compCount As Integer = 0
 
         If rockRadioButton.Checked And num = ROCK Then
-            resultLabel.Text = "Computer chose Rock too. Tie!"
+            resultLabel.Text = "Computer chose rock too. Tie!"
         ElseIf rockRadioButton.Checked And num = PAPER Then
             resultLabel.Text = "Computer chose paper. You Lose!"
             compCount += 1
@@ -22,7 +20,7 @@
             resultLabel.Text = "Computer chose scissors. You Win!"
             winCount += 1
         ElseIf paperRadioButton.Checked And num = ROCK Then
-            resultLabel.Text = "Computer chose Rock. You Win!"
+            resultLabel.Text = "Computer chose rock. You Win!"
             winCount += 1
         ElseIf paperRadioButton.Checked And num = PAPER Then
             resultLabel.Text = "Computer chose paper too. Tie!"
@@ -31,7 +29,7 @@
             compCount += 1
 
         ElseIf scissorsRadioButton.Checked And num = ROCK Then
-            resultLabel.Text = "Computer chose Rock. You Lose!"
+            resultLabel.Text = "Computer chose rock. You Lose!"
             compCount += 1
         ElseIf scissorsRadioButton.Checked And num = PAPER Then
             resultLabel.Text = "Computer chose paper. You Win!"
@@ -39,6 +37,9 @@
         ElseIf scissorsRadioButton.Checked And num = SCISSORS Then
             resultLabel.Text = "Computer chose scissors too. Tie!"
         End If
+
+        lblScore.Text = winCount
+        lblComputer.Text = compCount
     End Sub
 
     Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
