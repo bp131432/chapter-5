@@ -121,7 +121,7 @@
   <data name="picChick.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAATYAAAEjCAYAAAC4py2BAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAP+lSURBVHhe1L11fF3pebbrQFNIimmaQr6mgQbbJBNuqEka
+        YQUAAAAJcEhZcwAADsEAAA7BAbiRa+0AAP+lSURBVHhe1L11fF3pebbrQFNIimmaQr6mgQbbJBNuqEka
         nEw4k0wmk5lJhhnMzIyyxczMzMxMlmVZtoySxcy273M/z9rv1tK27Jlp0++c88f1W3uvzZL2pft5cVVy
         XBRS4qOdpCbELCMtMXYZqUmxSEmMUZITopWk+CglMS7SIiZCSYgORWJUCBIiA5EYEYiE8ACkhPsrqeF+
         SnqYj5KheCEt+CRSg9wcnHBwjOePK5khJ5AV6qZkh/AYzOsBx5DhdwTpvoeR4nsAqT57keK9B8leu5Hs
@@ -3312,7 +3312,7 @@
   <data name="picPuppy.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAbMAAAEpCAYAAAAZEMyiAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAP+lSURBVHherP31e1xJmu2PKjnFZmZbYDFYDJZk2WI02zLL
+        YQUAAAAJcEhZcwAADsEAAA7BAbiRa+0AAP+lSURBVHherP31e1xJmu2PKjnFZmZbYDFYDJZk2WI02zLL
         KFm2bDGzZGa7qlzU1VBdTdPM3NM03dPT00M9fGbmnHO/z71/xLprxc4tpV2u7j7nOz+sJ3ln5t4R8Yn1
         xhsRIbsrvKis9qC2wYPm/W4cOOLCoWNOHD7hwNFTDrScduB4qwMnzzlx6rwTpy+60HqJarN0xr69pNf4
         vgshOHEuBMfPhuAYP9dCHeExDvJ4e1tC0HAoBHX7Q1DdHILKxhDsrg1BaWUIineFIH9nCHIKQpCZE4LU
@@ -9175,7 +9175,7 @@
   <data name="picGoat.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAeoAAAGgCAYAAABlriQwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAP+lSURBVHherP33e13JkaaL1p9zn5nu6W6pvPeWniC89yRA
+        YQUAAAAJcEhZcwAADsEAAA7BAbiRa+0AAP+lSURBVHherP33e13JkaaL1p9zn5nu6W6pvPeWniC89yRA
         EgRAwnvvHUES9GRVqUoqJ++9a3nvvUpqlaTuVvf0mDNzz5kb93sjd+y9gCJL6pnzw/estTc2tlkrM96I
         yMjMW46s3mftaw/Z0fWHdXzE2lYfvoF4vqDDyw8lLen8hnosryPLj7vaVp7IK/v3G6ll9qEdesTVNJfU
         MP2w1U89ZPUzD1vj3KPWvPC4tS49KT2dV8viUy7Oj6zs0vfe7cfDy8/od+7xY9P8E9Yw+5je51E/Ns49
