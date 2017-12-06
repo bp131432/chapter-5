@@ -14,7 +14,7 @@
         For intCount2 = 16 To rand.Next(200) + 400
             picPuppy.Left = intCount2
         Next
-        For intCount3 = 16 To rand.Next(200) + 0
+        For intCount3 = 16 To rand.Next(200) + 100
             picGoat.Left = intCount3
         Next
 
