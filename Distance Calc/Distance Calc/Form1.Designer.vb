@@ -28,7 +28,6 @@ Partial Class Form1
         Me.txtTime = New System.Windows.Forms.TextBox()
         Me.btnCalculate = New System.Windows.Forms.Button()
         Me.btnExit = New System.Windows.Forms.Button()
-        Me.btnClear = New System.Windows.Forms.Button()
         Me.listResult = New System.Windows.Forms.ListBox()
         Me.SuspendLayout()
         '
@@ -66,7 +65,7 @@ Partial Class Form1
         '
         'btnCalculate
         '
-        Me.btnCalculate.Location = New System.Drawing.Point(26, 267)
+        Me.btnCalculate.Location = New System.Drawing.Point(61, 267)
         Me.btnCalculate.Name = "btnCalculate"
         Me.btnCalculate.Size = New System.Drawing.Size(75, 23)
         Me.btnCalculate.TabIndex = 5
@@ -75,21 +74,12 @@ Partial Class Form1
         '
         'btnExit
         '
-        Me.btnExit.Location = New System.Drawing.Point(233, 267)
+        Me.btnExit.Location = New System.Drawing.Point(195, 267)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(75, 23)
         Me.btnExit.TabIndex = 6
         Me.btnExit.Text = "Exit"
         Me.btnExit.UseVisualStyleBackColor = True
-        '
-        'btnClear
-        '
-        Me.btnClear.Location = New System.Drawing.Point(131, 267)
-        Me.btnClear.Name = "btnClear"
-        Me.btnClear.Size = New System.Drawing.Size(75, 23)
-        Me.btnClear.TabIndex = 7
-        Me.btnClear.Text = "Clear"
-        Me.btnClear.UseVisualStyleBackColor = True
         '
         'listResult
         '
@@ -106,7 +96,6 @@ Partial Class Form1
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(333, 312)
         Me.Controls.Add(Me.listResult)
-        Me.Controls.Add(Me.btnClear)
         Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.btnCalculate)
         Me.Controls.Add(Me.txtTime)
@@ -125,7 +114,6 @@ Partial Class Form1
     Friend WithEvents txtTime As System.Windows.Forms.TextBox
     Friend WithEvents btnCalculate As System.Windows.Forms.Button
     Friend WithEvents btnExit As System.Windows.Forms.Button
-    Friend WithEvents btnClear As System.Windows.Forms.Button
     Friend WithEvents listResult As System.Windows.Forms.ListBox
 
 End Class
