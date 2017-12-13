@@ -25,6 +25,7 @@ Partial Class Form1
         Me.btnEnter = New System.Windows.Forms.Button()
         Me.btnExit = New System.Windows.Forms.Button()
         Me.lblResult = New System.Windows.Forms.Label()
+        Me.txtGuess = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'btnEnter
@@ -52,22 +53,32 @@ Partial Class Form1
         Me.lblResult.Size = New System.Drawing.Size(200, 50)
         Me.lblResult.TabIndex = 4
         '
+        'txtGuess
+        '
+        Me.txtGuess.Location = New System.Drawing.Point(93, 58)
+        Me.txtGuess.Name = "txtGuess"
+        Me.txtGuess.Size = New System.Drawing.Size(100, 20)
+        Me.txtGuess.TabIndex = 5
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(299, 304)
+        Me.Controls.Add(Me.txtGuess)
         Me.Controls.Add(Me.lblResult)
         Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.btnEnter)
         Me.Name = "Form1"
         Me.Text = "Form1"
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
     Friend WithEvents btnEnter As System.Windows.Forms.Button
     Friend WithEvents btnExit As System.Windows.Forms.Button
     Friend WithEvents lblResult As System.Windows.Forms.Label
+    Friend WithEvents txtGuess As System.Windows.Forms.TextBox
 
 End Class
